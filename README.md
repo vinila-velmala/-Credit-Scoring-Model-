@@ -1,5 +1,6 @@
 # 💳 CreditIQ - Intelligent Credit Scoring & Underwriting System
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?style=flat&logo=github)](https://vinila-velmala.github.io/-Credit-Scoring-Model-/)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=vinila-velmala/-Credit-Scoring-Model-&branch=main&mainModule=app.py)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -12,8 +13,26 @@ An end-to-end Machine Learning credit risk assessment platform that predicts an 
 
 ## 🌐 Live Application & Hosting
 
-### 🚀 1-Click Cloud Deployment (Streamlit Community Cloud)
-You can deploy and host this interactive application with zero configuration:
+### 🌍 1. GitHub Pages (Live Instant Web App)
+You can directly open the live web dashboard hosted on GitHub Pages:
+
+👉 **[Launch CreditIQ on GitHub Pages](https://vinila-velmala.github.io/-Credit-Scoring-Model-/)**
+
+* **Live URL:** `https://vinila-velmala.github.io/-Credit-Scoring-Model-/`
+* **Features:** Instant browser-based credit scoring simulator, dynamic FICO score gauge, multi-model benchmarks, and batch underwriting.
+
+#### How to Enable GitHub Pages in your Repository:
+1. Go to your repository on GitHub: **[vinila-velmala/-Credit-Scoring-Model-](https://github.com/vinila-velmala/-Credit-Scoring-Model-)**
+2. Click on **Settings** (top bar) > **Pages** (left navigation menu).
+3. Under **Build and deployment**:
+   * **Source**: Select `Deploy from a branch` (or `GitHub Actions`).
+   * **Branch**: Select `main` and folder `/ (root)` or `/docs`, then click **Save**.
+4. Your website is instantly live at **`https://vinila-velmala.github.io/-Credit-Scoring-Model-/`**!
+
+---
+
+### 🚀 2. Streamlit Community Cloud (1-Click Deployment)
+You can also deploy the full Python Streamlit app to Streamlit Cloud for free:
 
 [![Deploy on Streamlit Community Cloud](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=vinila-velmala/-Credit-Scoring-Model-&branch=main&mainModule=app.py)
 
@@ -24,8 +43,10 @@ You can deploy and host this interactive application with zero configuration:
 * **Branch:** `main`
 * **Main file path:** `app.py`
 
-### 💻 Local Host Link
-When running locally on your workstation:
+---
+
+### 💻 3. Local Workstation Host Link
+When running locally on your computer:
 * **Local URL:** [http://localhost:8501](http://localhost:8501)
 * **Command to run:**
   ```bash
